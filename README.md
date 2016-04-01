@@ -1,6 +1,11 @@
 # Blog
 source code of lizhipower.github.io
 
+```
+hexo init
+npm install
+git pull: https://github.com/lizhipower/Blog.git
+```
 
 [如何使用 Jacman 主题](http://wuchong.me/blog/2014/11/20/how-to-use-jacman/)
 
