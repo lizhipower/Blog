@@ -15,25 +15,27 @@ categories:
 
 在JavaScript中String对象用于处理字符串文本。
 
-## 创建String对象
+## 创建
 
-*    new String(s);
-*    String(s);
+```
+new String(s);
+String(s);
+```
 
 其中，参数`s`可以是原始字符串值，也可以是一个`String对象`。
 
 * 当`String()`和`new`一起作为构造函数使用时，它返回一个新创建的`String对象`。
 * 当单独调用`String()`时，它将`s`转化成原始的字符串，并返回转换后的值。
 
-## String对象属性
+## 属性
 
 * constructor: 对创建该对象的函数的引用
 * length: 字符串的长度
 * prototype: 原型，可以像`String对象`添加属性和方法
 
-## String对象方法
+## 方法
 
-主要分为4类：
+主要分为3类：
 
 * HTML标签类
 * 字符串操作

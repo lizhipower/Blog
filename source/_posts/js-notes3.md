@@ -19,13 +19,13 @@ tags: [js,note]
             //this.newMethod(sColor);
             //delete this.newMethod;
             ClassA.call(ClassB,sColor);
-        
+
             this.name = sName;
             this.sayName = function()｛
                 console.log(this.name);
             ｝;
-        }        
-        
+        }
+
 * `apply()`
 `apply()`方法有两个参数，用作this的对象和要传递给函数的参数的数组。
 
@@ -35,14 +35,14 @@ tags: [js,note]
 
         function ClassA() {
         };
-        
+
         ClassA.prototype.color = "red";
-        
+
         function ClassB() {
         };
-        
+
         **ClassB.prototype = new ClassA();**
-        
+
 与对象冒充相似，子类的所有属性和方法必须出现在prototype属性被赋值后，因为prototype属性被替换成了新对象。
 原型链的弊端是不支持多重继承，prototype会被覆盖。
 
